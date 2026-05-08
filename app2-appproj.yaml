@@ -23,7 +23,7 @@ spec:
       kind: ConfigMap
     - group: ""
       kind: Secret
-    - group: ""
+    - group: batch
       kind: Job
   clusterResourceBlacklist:
     - group: rbac.authorization.k8s.io
